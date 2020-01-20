@@ -1330,16 +1330,16 @@ h1.intro-header::before {
 
 #header-nav-wrap .header-main-nav li a,
 #header-nav-wrap .header-main-nav li a:visited {
-    color: rgba(255, 255, 255, 0.45);
+    color: #FFFFFF;
 }
 
 #header-nav-wrap .header-main-nav li a:hover,
 #header-nav-wrap .header-main-nav li a:focus {
-    color: #ffffff;
+    color: #EC5B5F;
 }
 
 #header-nav-wrap .header-main-nav li.current a {
-    color: #ffffff;
+    color: #EC5B5F;
 }
 
 #header-nav-wrap .cta {
