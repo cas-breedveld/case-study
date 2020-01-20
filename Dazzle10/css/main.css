@@ -1880,12 +1880,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-intro {
     padding-top: 6rem;
-    padding-bottom: 12rem;
+    padding-bottom: 10rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 }
 
 .about-features .features-list {
-    padding-top: 5.4rem;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
 }
 
 .about-features .feature {
@@ -1898,7 +1899,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .feature .icon i {
-    color: #39b54a;
+    color: #EC5B5F;
     font-size: 4.8rem;
 }
 
