@@ -1169,7 +1169,7 @@ h1.intro-header::before {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    z-index: 501;
+    z-index: 800;
 }
 
 
@@ -1491,6 +1491,7 @@ h1.intro-header::before {
     padding: 15rem 0 12rem 40px;
     position: relative;
     width: 50%;
+    z-index: 700
 }
 
 .home-content-left h3 {
@@ -1541,7 +1542,7 @@ h1.intro-header::before {
     -ms-transform: translateY(-56%) translateX(30%);
     transform: translateY(-56%) translateX(30%);
     padding-top: 21rem;
-    z-index: 0;
+    z-index: 600;
     width: 120%;
     text-align: right;
 }
@@ -1762,8 +1763,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
         font-size: 4.2rem;
     }
     .home-image-right {
-        width: 40%;
+        width: 70%;
         padding-top: 120px;
+        z-index: 600;
+        -webkit-transform: translateY(-25%) translateX(30%);
+        -ms-transform: translateY(-25%) translateX(30%);
+        transform: translateY(-25%) translateX(30%);
     }
     .home-image-right img {
         vertical-align: top;
@@ -1791,16 +1796,16 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
         margin-bottom: 3.6rem;
     }
     .home-image-right {
-        width: 400px;
+        width: 70%;
         right: auto;
         top: auto;
         left: 50%;
         bottom: 0;
-        -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%) ;
+        -ms-transform: translateX(-50%) ;
+        transform: translateX(-50%) ;
         padding: 0;
-        margin-bottom: -378px;
+        /* margin-bottom: -378px; */
     }
 }
 
@@ -1859,8 +1864,21 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
         margin: 0 0 1.2rem 0;
     }
     .home-image-right {
-        width: 320px;
-        margin-bottom: -298px;
+        width: 80%;
+        /* margin-bottom: -298px; */
+        -webkit-transform: translateX(-50%) ;
+        -ms-transform: translateX(-50%) ;
+        transform: translateX(-50%) ;
+    }
+}
+
+@media only screen and (max-width: 300px) { 
+    .home-image-right {
+        width: 80%;
+        /* margin-bottom: -298px; */
+        -webkit-transform: translateX(-50%) ;
+        -ms-transform: translateX(-50%) ;
+        transform: translateX(-50%) ;
     }
 }
 
