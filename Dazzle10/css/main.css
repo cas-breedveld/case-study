@@ -1879,7 +1879,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-intro {
-    padding-bottom: 3.6rem;
+    padding-top: 6rem;
+    padding-bottom: 12rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 }
 
