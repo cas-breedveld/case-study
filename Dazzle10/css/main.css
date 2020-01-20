@@ -1273,7 +1273,7 @@ h1.intro-header::before {
 }
 
 .header-menu-toggle.is-clicked span {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(#EC5B5F);
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
@@ -1367,9 +1367,9 @@ h1.intro-header::before {
 
 @media only screen and (max-width: 768px) {
     .header-logo a {
-        width: 88px;
-        height: 20px;
-        background-size: 88px 20px;
+        width: 132px;
+        height: 30px;
+        background-size: 132px 30px;
     }
     #header-nav-wrap {
         display: none;
@@ -2651,10 +2651,10 @@ footer ul a:visited {
     padding: 0;
     outline: 0;
     border: none;
-    width: 93px;
-    height: 21px;
-    background: url("../images/Weeny_logo3.png") no-repeat center;
-    background-size: 93px 21px;
+    width: 167px;
+    height: 37px;
+    background: url("../images/Onejourney.png") no-repeat center;
+    background-size: 167px 37px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
