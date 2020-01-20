@@ -558,7 +558,7 @@ td:last-child {
     right: 100%;
     height: 100%;
     width: 100%;
-    background: #39b54a;
+    background: #EC5B5F;
 }
 
 .pace.pace-inactive {
@@ -793,8 +793,8 @@ input[type="button"] {
     border-radius: .5rem;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #c5c5c5;
-    border: .3rem solid #c5c5c5;
+    background-color: #EC5B5F;
+    border: .3rem solid #EC5B5F;
 }
 
 .button:hover,
@@ -1616,7 +1616,7 @@ h1.intro-header::before {
 
 .home-scrolldown a:hover,
 .home-scrolldown a:focus {
-    color: #44c455 !important;
+    color: #EC5B5F !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .home-scrolldown,
