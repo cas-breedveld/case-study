@@ -1337,14 +1337,14 @@ h1.intro-header::before {
 #header-nav-wrap .header-main-nav li a:focus {
     color: #fff;
     text-decoration-line: underline;
-    text-decoration-color: #EC5B5F ;
-    text-decoration-thickness: 3px; 
-    text-underline-offset: 2px;
+    text-decoration-color: #EC5B5F;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
     ease;
-  -moz-transition: text-decoration 500ms ease;
-  -ms-transition: text-decoration 500ms ease;
-  -o-transition: text-decoration 500ms ease;
-  transition: text-decoration 500ms ease; 
+    -moz-transition: text-decoration 500ms ease;
+    -ms-transition: text-decoration 500ms ease;
+    -o-transition: text-decoration 500ms ease;
+    transition: text-decoration 500ms ease;
 }
 
 #header-nav-wrap .header-main-nav li.current a {
@@ -1352,12 +1352,12 @@ h1.intro-header::before {
     text-decoration-line: underline;
     text-decoration-color: #EC5B5F;
     text-decoration-thickness: 3px;
-    text-underline-offset: 2px;
+    text-underline-offset: 4px;
     ease;
-  -moz-transition: text-decoration 500ms ease;
-  -ms-transition: text-decoration 500ms ease;
-  -o-transition: text-decoration 500ms ease;
-  transition: text-decoration 500ms ease; 
+    -moz-transition: text-decoration 500ms ease;
+    -ms-transition: text-decoration 500ms ease;
+    -o-transition: text-decoration 500ms ease;
+    transition: text-decoration 500ms ease;
 }
 
 #header-nav-wrap .cta {
