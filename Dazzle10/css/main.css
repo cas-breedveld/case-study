@@ -1115,7 +1115,28 @@ h1.intro-header {
     padding-bottom: 3.6rem;
 }
 
+h1.intro-header2 {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 3.4rem;
+    line-height: 1.324;
+    color: #151515;
+    position: relative;
+    padding-bottom: 3.6rem;
+    padding-top: 8rem;
+}
+
 h1.intro-header::before {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 70px;
+    background-color: #EC5B5F;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+h1.intro-header2::before {
     display: block;
     content: "";
     height: 2px;
@@ -1919,8 +1940,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .features-list {
-    padding-top: 12rem;
-    padding-bottom: 6rem;
+    padding-top: 6rem;
+    padding-bottom: rem;
 }
 
 .about-features .feature {
