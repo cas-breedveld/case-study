@@ -1939,6 +1939,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 }
 
+.about-features {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    padding-bottom: 45px;
+}
+
 .about-features .features-list {
     padding-top: 6rem;
     padding-bottom: rem;
@@ -1965,9 +1970,22 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     margin-bottom: 3rem;
 }
 
+.about-features h1.intro-header {
+    text-align: center;
+}
+
+#research .about-features h1.intro-header::before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
 .about-how {
     padding-top: 7.2rem;
     padding-bottom: 6rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    /* padding-bottom: 45px; */
 }
 
 .about-how h1.intro-header {
@@ -1975,17 +1993,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #about .about-how h1.intro-header::before {
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
-.about-features h1.intro-header {
-    text-align: center;
-}
-
-#research .about-features h1.intro-header::before {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
