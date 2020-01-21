@@ -1340,7 +1340,6 @@ h1.intro-header::before {
     text-decoration-color: #EC5B5F ;
     text-decoration-thickness: 3px; 
     text-underline-offset: 2px;
-    ease;
   -moz-transition: text-decoration 500ms ease;
   -ms-transition: text-decoration 500ms ease;
   -o-transition: text-decoration 500ms ease;
@@ -1353,7 +1352,6 @@ h1.intro-header::before {
     text-decoration-color: #EC5B5F;
     text-decoration-thickness: 3px;
     text-underline-offset: 2px;
-    ease;
   -moz-transition: text-decoration 500ms ease;
   -ms-transition: text-decoration 500ms ease;
   -o-transition: text-decoration 500ms ease;
