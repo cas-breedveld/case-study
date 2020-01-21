@@ -2211,11 +2211,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .col-four2 {
-    width: 66.66667%; !important
+    width: 66.66667%;
 }
 
 .col-eight2 {
-    width: 33.33333%; !important
+    width: 33.33333%;
     text-align: left;
 }
 
