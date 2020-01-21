@@ -1335,11 +1335,29 @@ h1.intro-header::before {
 
 #header-nav-wrap .header-main-nav li a:hover,
 #header-nav-wrap .header-main-nav li a:focus {
-    color: #EC5B5F;
+    color: #fff;
+    text-decoration-line: underline;
+    text-decoration-color: #EC5B5F ;
+    text-decoration-thickness: 3px; 
+    text-underline-offset: 2px;
+    ease;
+  -moz-transition: text-decoration 500ms ease;
+  -ms-transition: text-decoration 500ms ease;
+  -o-transition: text-decoration 500ms ease;
+  transition: text-decoration 500ms ease; 
 }
 
 #header-nav-wrap .header-main-nav li.current a {
-    color: #EC5B5F;
+    color: #fff;
+    text-decoration-line: underline;
+    text-decoration-color: #EC5B5F;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 2px;
+    ease;
+  -moz-transition: text-decoration 500ms ease;
+  -ms-transition: text-decoration 500ms ease;
+  -o-transition: text-decoration 500ms ease;
+  transition: text-decoration 500ms ease; 
 }
 
 #header-nav-wrap .cta {
