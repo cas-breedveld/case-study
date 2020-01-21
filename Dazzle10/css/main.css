@@ -2198,6 +2198,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     padding-bottom: 12rem;
 }
 
+.pricing-content {
+    margin-bottom: 100px;
+}
+
 #pricing h1 {
     margin-bottom: 3.6rem;
 }
@@ -2206,8 +2210,17 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     padding-top: .6rem;
 }
 
+.col-four2 {
+    width: 66.66667%; !important
+}
+
+.col-eight2 {
+    width: 33.33333%; !important
+    text-align: left;
+}
+
 .pricing-table {
-    text-align: center;
+    text-align: left;
 }
 
 .pricing-table .plan-block {
