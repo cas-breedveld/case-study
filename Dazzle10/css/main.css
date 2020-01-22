@@ -2334,7 +2334,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
         margin-right: 0;
     }
     #pricing [class*="col"].pricing-intro {
-        text-align: center;
+        text-align: left;
         margin-left: auto;
         margin-right: auto;
         max-width: 650px;
@@ -2606,8 +2606,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #download {
-    background: #39b54a;
-    color: #b2fabc;
+    background: #EC5B5F;
+    color: #fff;
     padding-top: 12rem;
     padding-bottom: 12rem;
     text-align: center;
@@ -2618,7 +2618,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download h1::before {
-    background-color: #2a9038;
+    background-color: rgb(175, 68, 72);
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -2626,7 +2626,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download .lead {
-    color: #b2fabc;
+    color: #fff;
     margin-top: 4.8rem;
 }
 
