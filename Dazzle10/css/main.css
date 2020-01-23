@@ -1155,6 +1155,9 @@ h1.intro-header2::before {
     max-width: 800px;
 }
 
+.row .about-bottom-image {
+    margin: 0 auto !important;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -1200,7 +1203,7 @@ h1.intro-header2::before {
 
 .header-logo {
     position: absolute;
-    left: 11%;
+    left: 10.5%%;
     /*------*/
     top: 52%;
     -webkit-transform: translateY(-50%);
@@ -1328,7 +1331,7 @@ h1.intro-header2::before {
     font-size: 14px;
     position: absolute;
     top: 0;
-    right: 11%;
+    right: 9%;
 }
 
 #header-nav-wrap .header-main-nav {
@@ -2067,6 +2070,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-bottom-image img {
     vertical-align: bottom;
+    margin: 0 auto;
 }
 
 
