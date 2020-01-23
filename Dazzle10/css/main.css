@@ -1180,6 +1180,7 @@ h1.intro-header3::before {
     margin: 0 auto !important;
 }
 
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * common styles
@@ -3013,6 +3014,10 @@ footer ul a:visited {
     .footer-bottom .copyright span::after {
         display: none;
     }
+}
+
+.bodytext {
+    width: 97%;
 }
 
 
