@@ -1125,6 +1125,16 @@ h1.intro-header2 {
     padding-top: 8rem;
 }
 
+h1.intro-header3 {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 3.4rem;
+    line-height: 1.324;
+    color: #282828;
+    position: relative;
+    padding-bottom: 3.6rem;
+    padding-top: 8rem;
+}
+
 h1.intro-header::before {
     display: block;
     content: "";
@@ -1142,6 +1152,17 @@ h1.intro-header2::before {
     height: 2px;
     width: 70px;
     background-color: #EC5B5F;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+h1.intro-header3::before {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 70px;
+    background-color: #151515;
     position: absolute;
     left: 0;
     bottom: 0;
