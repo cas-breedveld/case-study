@@ -1550,7 +1550,7 @@ h1.intro-header3::before {
 }
 
 .home-content-left {
-    padding: 15rem 0 12rem 40px;
+    padding: 15rem 0 12rem 15px;
     position: relative;
     width: 50%;
     z-index: 700
