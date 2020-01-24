@@ -759,11 +759,11 @@
         cursor: pointer;
         text-align: center;
         white-space: nowrap;
-        border-radius: 4rem;
+        border-radius: 6rem;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #c5c5c5;
-        border: .3rem solid #c5c5c5;
+        background-color: #ffffff;
+        border: .3rem solid #ffffff;
     }
     
     .button:hover,
@@ -776,8 +776,8 @@
     input[type="submit"]:focus,
     input[type="reset"]:focus,
     input[type="button"]:focus {
-        background-color: #b8b8b8;
-        border-color: #b8b8b8;
+        background-color: #ffffff;
+        border-color: #ffffff;
         color: #000000;
         outline: 0;
     }
@@ -787,8 +787,8 @@
     input[type="submit"].button-primary,
     input[type="reset"].button-primary,
     input[type="button"].button-primary {
-        background-color: #39b54a;
-        border-color: #39b54a;
+        background-color: #EC5B5F;
+        border-color: #EC5B5F;
         color: #FFFFFF;
     }
     
@@ -802,8 +802,8 @@
     input[type="submit"].button-primary:focus,
     input[type="reset"].button-primary:focus,
     input[type="button"].button-primary:focus {
-        background: #309a3f;
-        border-color: #309a3f;
+        background-color: #EC5B5F;
+        border-color: #EC5B5F;
     }
     
     button.full-width,
@@ -827,13 +827,14 @@
     button.stroke,
     .button.stroke {
         background: transparent !important;
-        color: #a5a5a5 !important;
+        color: #FFFFFF !important;
     }
     
     button.stroke:hover,
     .button.stroke:hover {
-        border: 0.3rem solid #39b54a;
-        color: #39b54a;
+        background-color: #EC5B5F !important;
+        border: 0.3rem solid #EC5B5F;
+        color: #EC5B5F;
     }
     
     button.pill,
@@ -2546,7 +2547,7 @@
  * ------------------------------------------------------------------- */
     
     #download {
-        background: #EC5B5F;
+        background: #282828;
         color: #fff;
         padding-top: 12rem;
         padding-bottom: 12rem;
